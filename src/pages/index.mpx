@@ -1,5 +1,5 @@
 <template>
-  <list></list>
+  <t-button shape="round" theme="primary" variant="outline">取消</t-button>
 </template>
 
 <script>
@@ -14,8 +14,8 @@ createPage({
 
 <script type="application/json">
   {
-    "usingComponents": {
-      "list": "../components/list"
+    "usingComponents":{
+      "t-button": "tdesign-miniprogram/button/button"
     }
   }
 </script>
